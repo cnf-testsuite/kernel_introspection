@@ -1,7 +1,4 @@
-require "colorize"
-require "kubectl_client"
-require "cluster_tools"
-require "./kernel_introspection/k8s.cr"
+require "log"
 
 module KernelIntrospection
   def self.os_release
