@@ -13,11 +13,3 @@ targets:
   kernel_introspection:
     main: "src/kernel_introspection.cr"
 
-dependencies:
-  kubectl_client:
-    github: cnf-testsuite/kubectl_client
-    branch: main
-  cluster_tools:
-    github: cnf-testsuite/cluster_tools
-    branch: main
-
